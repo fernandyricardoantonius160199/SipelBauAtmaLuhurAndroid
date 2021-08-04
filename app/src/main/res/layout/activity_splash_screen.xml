@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="321dp"
+        android:layout_height="339dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/icon_bau" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:fontFamily="@font/didact_gothic"
+        android:text="Aplikasi Pelaporan Kerusakan \nSarana Dan Prasarna Mahasiswa"
+        android:textColor="#9A9FAB"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="255dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="Versi 17.11.500.123"
+        android:textColor="#9A9FAB"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

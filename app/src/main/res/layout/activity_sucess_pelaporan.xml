@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SucessPelaporanActivity">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="314dp"
+            android:layout_gravity="center"
+            android:src="@drawable/daftar_berhasil" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sukses,\n Pelaporan anda berhasil."
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/didact_gothic" />
+
+        <TextView
+            android:id="@+id/btn_kembali"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="300dp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_24"
+            android:fontFamily="@font/didact_gothic"
+            android:gravity="right"
+            android:textSize="15sp"
+            android:text="Selanjutnya"
+            android:textColor="#0092BE" />
+
+    </LinearLayout>
+
+</ScrollView>
